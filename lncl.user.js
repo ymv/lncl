@@ -5,12 +5,6 @@
 // @run-at document-end
 // ==/UserScript==
 
-// alert('lol penis');
-
-/*var new_posts = Array.map(document.querySelectorAll('.b-comment_outline'), function (n) {
-	return n.parentNode.parentNode;
-});*/
-
 function add_link(container, target, title) {
 	var link = document.createElement('a');
 	link.innerHTML = title;
