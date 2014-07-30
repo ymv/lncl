@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name Leprosorium new comment links
 // @description Add next/previous links to new comments
-// @include https://leprosorium.ru/comments/*
+// @include /^https://([a-z0-9-]+\.)?leprosorium.ru/comments/
 // @run-at document-end
 // ==/UserScript==
 
