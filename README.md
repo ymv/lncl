@@ -1,6 +1,14 @@
-Leprosorium new comment links userscript
-========================================
+Leprosorium userscripts
+=======================
+
+Works at on FF/Greasemoney and does not work on Chromium
+
+New comment links (lncl)
+------------------------
 
 Add next/previous links to new comments
 
-Works at least on FF/Greasemoney and does not work on Chromium
+Comment rating delta (comdelta)
+-------------------------------
+
+Show comment rating change since last visit of user comments page
