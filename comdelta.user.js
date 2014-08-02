@@ -23,7 +23,7 @@ function force_sign(x) {
 }
 
 function add_popup(vote_container) {
-	var current_value = parseInt(vote_container.children[0].innerHTML, 10);
+	var current_value = parseInt(vote_container.querySelector('strong').innerHTML, 10);
 	var key = 'rating_' + get_id(vote_container);
 	var last_value = GM_getValue(key, 0);
 	if (last_value == current_value)
